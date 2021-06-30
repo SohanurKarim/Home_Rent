@@ -1,0 +1,362 @@
+
+*{  margin:0;
+    padding:0;
+ }
+ 
+body {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+/*Style for Navbar and menu*/
+#navbar1{
+  background-color: #009abb;
+  border-color: #009abb;
+}
+
+#navbar-brand1 > h1 {
+  color: white;
+  font-family: georgia;
+  font-size: 28px;
+  margin: 0;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+  background-color: transparent;
+  color: gray;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color:#009abb;}
+.navbar-inverse .navbar-toggle {
+  border-color:none;
+}
+text {
+	margin: 0 0 0 5px;
+	font-size: 20px;
+}
+
+/*Style for modal*/
+.modal-header, .modal-header>h4, .close {
+      background-color: #009abb;
+      color:white ;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  
+ #log_btn{background-color: #009abb;
+        border-color: #009abb;
+ }
+ 
+ #log_btn:hover {
+	background-color: #1bb5e4;
+	border-color: #009abb;
+  }
+.btn-danger {
+	color: #fff;
+	background-color: #009abb;
+	border-color: #009abb;
+}
+  
+  
+/*Style for Big Image*/
+.jumbotron{
+	  background-image: url("images/wc1706527.jpg");
+	  color:white;
+	  background-attachment:fixed;
+	  min-height:400px;
+	  margin-top:0px;
+	  margin-bottom:10px;
+	  background-size:100% 100%;
+	 
+}
+.jumbotron .h1, .jumbotron h1 {
+  font-family: times new roman;
+  font-size: 48px;
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+ strong {
+  font-weight: lighter;
+}
+.jumbotron p {
+  font-family: times new roman;
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+/*Style for Renter comment*/
+#container {
+  background-color: #f7f7f7;
+  padding: 0 0 32px;
+}
+.container > p {
+  color: gray;
+  font-family: times new roman;
+  font-size: 35px;
+  margin: 20px 0;
+  text-align: center;
+}
+.customDiv{
+	min-height:263px;
+	background-color:#FFF;
+	
+}
+.col-md-6 > h2 {
+  color: #009abb;
+  font-size: 28px;
+   margin: 15px 0 0 22px;
+}
+.col-md-6 > p {
+  color: gray;
+  font-size: 21px;
+  margin: 10px 0 0 22px;
+}
+.col-md-6 > a {
+  background-color: #009abb;
+  color: white;
+  font-size: 17px;
+  height: 30px;
+  margin: 0 0 0 22px;
+  padding: 8px;
+  text-decoration: none;
+  width: 30px;
+}
+.col-md-6 > a:hover{
+	background-color:#3B7A9D;
+	box-shadow: 0 12px 16px black;
+}
+.mySlides > img {
+  border: 1px solid #009abb;
+  border-radius: 49px;
+  float: left;
+  margin: 40px 0 0 55px;
+}
+.comment_info {
+
+  float: left;
+  margin: 63px 0 0 25px;
+  width: 250px;
+}
+.comment_info h4 {
+  margin: 0 0 5px;
+}
+.comment_info > p {
+  float: left;
+  margin: 0;
+  color:gray;
+  
+}
+.comment_text > p {
+  color: gray;
+  float: left;
+  margin: 14px 60px 32px 62px;
+  text-align: justify;
+}
+
+/*Start Style for Renter works*/
+#container-fluid {
+	padding: 10px 0 50px;
+}
+.container-fluid > p {
+  color: gray;
+  font-family: times new roman;
+  font-size: 35px;
+  margin: 20px 0;
+  text-align: center;
+}
+.comment1 {
+  float: left;
+  margin: 0 0 0 0;
+}
+.comment1 > img {
+  border-radius: 0;
+  margin: 0 0 10px 73px;
+}
+.comment1 > h3 {
+  color: gray;
+  font-size: 20px;
+  margin: 4px 0 15px 23px;
+}
+.comment1 > p {
+  color: gray;
+  font-size: 17px;
+  margin: 0 24px 10px;
+  text-align: justify;
+}
+/**/
+.comment2 {
+  float: left;
+  margin: -17px 0 0 0;
+  
+}
+.comment2 > img {
+  border-radius: 0;
+  margin: 0 0 10px 73px;
+}
+.comment2 > h3 {
+  color: gray;
+  font-size: 20px;
+  margin: 4px 0 15px 23px;
+}
+.comment2 > p {
+  color: gray;
+  font-size: 17px;
+  margin: 0 24px 10px;
+  text-align: justify;
+}
+/**/
+.comment3 {
+  float: left;
+  margin: 17px 0 0 0;
+ 
+}
+.comment3 > img {
+  border: 2px solid gray;
+  border-radius: 60px;
+  margin: -5px 0 15px 73px;
+  padding: 27px;
+}
+.comment3 > h3 {
+  color: gray;
+  font-size: 20px;
+  margin: 4px 0 15px 23px;
+}
+.comment3 > p {
+  color: gray;
+  font-size: 17px;
+  margin: 0 24px 10px;
+  text-align: justify;
+}
+
+
+/*Start Style for footer Image add*/
+#container-fluid0{margin:0 0 20px 0;}
+#img_container{text-align:center;}
+.img {}
+.img2 {
+	margin: 0 0 0 20px;
+}
+.img3 {
+
+	margin: 0 0 0 20px;
+}
+.img4 {
+	margin: 0 0 0 20px;
+}
+
+/*Start Style for footer content*/
+#container-fluid1{
+	background-color:#47484B;
+	padding:0 0 20px 0;
+	}
+.Popular_post {
+  float: left;
+  margin-left: 6%;
+  margin-top: 3%;
+  padding-left: 10px;
+  font-family:times new roman;
+  color:white;
+}
+.Tags {
+  float: left;
+  margin-left: 4%;
+  padding-left: 10px;
+  margin-top: 3%;
+  font-family:times new roman;
+  color:white;
+}
+.A_little_about_us {
+  float: left;
+  margin-left: 5%;
+  padding-left: 10px;
+  margin-top: 3%;
+  font-family:times new roman;
+  color:white;
+}    
+.Get_in_touch {
+  float: left;
+  margin-left: 3%;
+  padding-left: 10px;
+  margin-top: 3%;
+  font-family:times new roman;
+  color:white;
+} 
+
+/*Start Style for footer content*/
+#container-fluid2{
+	background-color:#2D2E30;
+	
+	}
+.box {
+	float: left;
+	background-color: #2D2E30;
+	color: aliceblue;
+	height: 70px;
+	margin: 0 0 0 -85px;
+}
+.contact_member {
+	float: right;
+	background-color: #2D2E30;
+	margin: 10px 28px 0 0;
+}
+.contact_member ul {
+  list-style: outside none none;
+  margin: 0;
+}
+.contact_member ul li{
+    float: left;
+    padding: 15px;
+    transition: .75s;
+    
+}
+.contact_member:hover ul li{
+     transform: translate(10px);
+    
+}
+.box > h2 {
+  margin: 20px 0 0 119px;
+}
+/*style for back to top button*/
+#topBtn {
+  background-color: #009abb;
+  border: medium none;
+  bottom: 70px;
+  color: white;
+  display: none;
+  height: 45px;
+  position: fixed;
+  right: 30px;
+  width: 45px;
+  z-index:1000;
+  cursor:pointer;
+}
+.topUp {
+  height: 20px;
+  width: 20px;
+  margin: 12px;
+}
+#topBtn:hover{transition-duration:.10s;
+background-color:#75ADDE;
+}
+
+
+
+
+
+
+
+
+

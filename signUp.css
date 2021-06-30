@@ -1,0 +1,137 @@
+*{margin:0;
+  padding:0;
+ }
+ body{
+   font-family:georgian;
+ }
+.jumbotron{
+ 	  background-image: url("images/c9.PNG");
+	  color:white;
+	  min-height:650px;
+	  background-size:100% 100%;
+	  padding:0;
+	  margin:0;
+	 
+}
+/*start style for sign up page*/
+.box1 {
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  left: 50%;
+  margin: 329px 0 0 0;
+  min-width: 350px;
+  padding: 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color:#FFF;
+}
+ .box1 h2{
+	 margin:0 0 30px;
+	 padding:0;
+	 color:gray;
+	 text-align:center;
+ }
+ 
+ .box1 .inputBox{
+	 position:relative;
+ }
+ .box1 .inputBox input{
+	 width:100%;
+	 padding:10px 0;
+	 font-size:16px;
+	 color:gray;
+	 margin-bottom:30px;
+	 border:none;
+	 border-bottom:1px solid gray;
+	 outline:none;
+	 background:transparent;
+ }
+.box1 .inputBox input:hover{border-color:#03a9f4;}
+.box1 .inputBox label{
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 padding:10px 0;
+	 font-size:16px;
+	 color:gray;
+	 transition:.5s;
+	 pointer-events:none;	 
+ }
+ .box1 .inputBox input:focus ~ label,
+ .box1 .inputBox input:valid ~ label{
+	 top:-18px;
+	 left:0px;
+	 color:#03a9f4;
+	 font-size:12px;
+ }
+ 
+ .box1 input[type="submit"] {
+  background: #03a9f4 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  outline: medium none;
+  padding: 10px 20px;
+  font-size:15px;
+}
+ .box1 input[type="submit"]:hover{background-color:#009abb;
+   color:#333;
+ }
+.help1 {
+
+
+}
+ .help1 > a {
+  text-decoration: none;
+  padding: 4px;
+ 
+}
+.col-lg-12.le {
+  text-align: center;
+}
+
+.le > p {
+  color: red;
+  font-size: 15px;
+  margin: 3px 0 0;
+  text-align: center;
+}
+.le > a {
+  margin:  0 0 0 0;
+}
+/*Style for modal*/
+.modal-header, .modal-header>h4, .close {
+      background-color: #009abb;
+      color:white ;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  
+ #log_btn{background-color: #009abb;
+        border-color: #009abb;
+ }
+ 
+ #log_btn:hover {
+	background-color: #1bb5e4;
+	border-color: #009abb;
+  }
+.btn-danger {
+	color: #fff;
+	background-color: #009abb;
+	border-color: #009abb;
+}
+  
+
+
+
+
+
+
+
+
+
