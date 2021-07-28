@@ -1,7 +1,7 @@
 <?php
 
 
-//connecction to database
+//connecction to database direect
 
 $db=mysqli_connect("localhost","root","","user");
 
