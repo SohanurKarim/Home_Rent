@@ -9,7 +9,7 @@
 
   <body>   
 	 
-	<!--Start coding for Navbar Menu -->
+	<!--Start coding for Navbar Menu bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar1">
       <div class="container">
         <div class="navbar-header">
